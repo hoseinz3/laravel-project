@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('about',function(){
-	return view('abuot');
+	return view('about');
 })
 
 // create about page and so on
