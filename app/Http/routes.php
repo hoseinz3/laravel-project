@@ -17,5 +17,8 @@ Route::get('/', function () {
 Route::get('about',function(){
 	return view('about');
 })
-
+Route::get('home',function()
+{
+	return 'This is a home page';
+})
 // create about page and so on
