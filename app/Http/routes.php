@@ -25,4 +25,9 @@ Route::get('sina',function()
 {
 	return 'This sina is baghalidar';
 })
+
+Route::get('hosein',function()
+{
+	return 'This is Hosein Page';
+})
 // create about page and so on
