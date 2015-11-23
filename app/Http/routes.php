@@ -30,4 +30,8 @@ Route::get('hosein',function()
 {
 	return 'This is Hosein Page';
 })
+Route::get('kazem',function()
+{
+	return 'kazem is best';
+})
 // create about page and so on
