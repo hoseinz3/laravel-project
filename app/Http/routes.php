@@ -21,4 +21,8 @@ Route::get('home',function()
 {
 	return 'This is a home pages';
 })
+Route::get('sina',function()
+{
+	return 'This sina is baghalidar';
+})
 // create about page and so on
