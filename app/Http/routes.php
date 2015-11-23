@@ -19,6 +19,6 @@ Route::get('about',function(){
 })
 Route::get('home',function()
 {
-	return 'This is a home page';
+	return 'This is a home pages';
 })
 // create about page and so on
