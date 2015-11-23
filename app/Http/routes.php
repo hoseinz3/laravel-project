@@ -21,4 +21,9 @@ Route::get('home',function()
 {
 	return 'This is a home pag';
 })
+
+Route::get('hosein',function()
+{
+	return 'This is Hosein Page';
+})
 // create about page and so on
